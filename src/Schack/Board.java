@@ -42,14 +42,14 @@ public class Board {
             char col = (char) ((int)'A' + i);
             squares[1][i] = new Square(
                     new Position(8, col),
-                    new Piece(Type.Rook, Colour.White)
+                    new Piece(Type.Pawn, Colour.White)
             );
 
             i++;
             col = (char) ((int)'A' + i);
             squares[1][i] = new Square(
                     new Position(8, col),
-                    new Piece(Type.Rook, Colour.White)
+                    new Piece(Type.Pawn, Colour.White)
             );
         }
 
@@ -100,14 +100,14 @@ public class Board {
             char col = (char) ((int)'A' + i);
             squares[6][i] = new Square(
                     new Position(1, col),
-                    new Piece(Type.Rook, Colour.Black)
+                    new Piece(Type.Pawn, Colour.Black)
             );
 
             i++;
             col = (char) ((int)'A' + i);
             squares[6][i] = new Square(
                     new Position(1, col),
-                    new Piece(Type.Rook, Colour.Black)
+                    new Piece(Type.Pawn, Colour.Black)
             );
         }
     }
